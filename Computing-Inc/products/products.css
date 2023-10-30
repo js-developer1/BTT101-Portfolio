@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --bittersweet: #FF5757;
+    --jet: #303030;
+    --midnightGreen: #0B3C49;
+    --deepSkyBlue: #57C8FF;
+    --jade: #3BB273;
+}
+
+body {
+    background-color: var(--jet);
+    margin: 0px;
+    font-family: 'Victor Mono', monospace; 
+    background-image: url(../imgs/BTT101\ Portfolio\ Images.png);
+}
+
+.red {
+    background-color: var(--bittersweet);
+}
+
+.blue {
+    background-color: var(--deepSkyBlue);
+}
+
+.green {
+    background-color: var(--jade);
+}
+
+#products {
+    width: 40%;
+    border-radius: 2.5rem;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+#productsImage {
+    width: 128px;
+    height: 128px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
