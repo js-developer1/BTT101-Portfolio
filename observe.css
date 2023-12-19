@@ -1,14 +1,14 @@
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-25%);
+    transform: translateX(-10%);
     transition: all 1s;
 }
 
 .right {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(25%);
+    transform: translateX(10%);
     transition: all 1s;
 }
 

@@ -28,13 +28,15 @@ main {
     margin: 0px auto;
     margin: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 47.5%);
     grid-template-rows: repeat(6, fit-content);
     gap: 7.5px;
+	row-gap: 15px;
+	grid-auto-columns: 0px;
 }
 
 section {
-    width: 95%;
+    width: 90%;
     margin: 0px auto;
 	border-radius: 12px;
 	padding: 20px;
@@ -57,22 +59,26 @@ section {
 	background-color: var(--persianGreen);
 }
 
+main > section:nth-child(1) {
+    transition-delay: 100ms;
+}
+
 main > section:nth-child(2) {
     transition-delay: 100ms;
 }
 
 main > section:nth-child(3) {
-    transition-delay: 200ms;
+    transition-delay: 175ms;
 }
 
 main > section:nth-child(4) {
-    transition-delay: 300ms;
+    transition-delay: 175ms;
 }
 
 main > section:nth-child(5) {
-    transition-delay: 400ms;
+    transition-delay: 250ms;
 }
 
 main > section:nth-child(6) {
-    transition-delay: 500ms;
+    transition-delay: 250ms;
 }
